@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
     @GetMapping("/hello")
     public String sayHello(String name) {
-        String greeting = "Hello "+name+"!";
+        String greeting = "Hello Ms."+name+"!";
         log.info("Greeting Message -> "+greeting);
         return greeting;
     }
