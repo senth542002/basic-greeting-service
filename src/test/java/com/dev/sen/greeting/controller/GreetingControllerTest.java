@@ -17,6 +17,6 @@ class GreetingControllerTest {
     @Test
     void shouldSendAGreetingWhenInvoked() {
         String greeting = greetingController.sayHello("Senthil");
-        assertThat(greeting).isEqualTo("Hello Ms.Senthil!");
+        assertThat(greeting).isEqualTo("Hello Senthil!");
     }
 }
